@@ -16,3 +16,22 @@ Fatores que tornam o ML Especialmente Útil: Tarefas repetitivas, baixo custo as
 
  Aplicações para Consumidores vs. Empresariais: Enquanto os aplicativos voltados para consumidores priorizam a latência, a precisão é fundamental em aplicativos empresariais, onde o ML é utilizado para reduzir custos, prever a rotatividade de clientes, monitorar a marca, entre outros.
 
+**ML na Pesquisa e na Produção**
+
+Diferenças nos Requisitos, Prioridades Computacionais, Dinâmica dos Dados, Equidade e Interoperabilidade entre sistemas de ML utilizados em pesquisas e em ambientes de produção.
+
+
+**Desafios em Sistemas de ML em Comparação com Software Tradicional:**
+
+Os sistemas de ML envolvem o gerenciamento não apenas do código, mas também dos dados e dos artefatos do modelo, tornando essencial a aplicação de estratégias de versionamento, teste, implantação e monitoramento específicas.
+
+Os desafios incluem o versionamento de dados, a avaliação da qualidade dos dados, a implantação de modelos que demandam grandes recursos computacionais e o monitoramento e depuração de modelos complexos implantados.
+
+
+Compreender as características e desafios únicos dos sistemas de ML é fundamental para o sucesso na implantação e manutenção de soluções de ML em cenários do mundo real.
+
+
+
+
+
+
