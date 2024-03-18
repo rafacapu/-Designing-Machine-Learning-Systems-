@@ -3,4 +3,12 @@
 ## Capítulo 1
 
 
-O objetivo deste capítulo de abertura foi fornecer aos leitores uma visão ampla  do que é necessário para implementar Machine Learning (ML) no mundo real. Começamos explorando uma ampla gama de casos de uso do ML atualmente em produção. Embora muitas pessoas estejam familiarizadas com o ML em aplicativos voltados para o consumidor citando por exemplo casos como os sites  Amazon e Netflix, a maioria dos casos de uso está dentro do contexto empresarial. Outro exemplo sendo a detecção de fraude.Também discutimos os cenários de quando o uso é ou não apropriado, pois  embora o ML possa resolver muitos problemas de forma eficaz, ela possui certas limitações e  não é uma solução universal e certamente não é adequada para todos os problemas. No entanto, mesmo para os problemas que o ML não pode resolver diretamente, ele pode desempenhar um papel importante como parte de uma solução mais abrangente.
+Este capítulo de abertura teve como objetivo proporcionar aos leitores uma compreensão do que é necessário para implementar com sucesso o aprendizado de máquina (ML) no mundo real. Começamos com uma exploração dos diversos casos de uso de ML atualmente em produção. 
+O capítulo oferece uma visão abrangente dos sistemas de aprendizado de máquina (ML), destacando os elementos-chave que determinam a viabilidade de uma solução de ML para um problema específico, além de enfatizar os fatores que podem tornar o ML uma abordagem especialmente eficaz. Além disso, ele diferencia a aplicação de ML em pesquisas e em produção, enquanto também destaca os desafios inerentes à aplicação de práticas tradicionais de engenharia de software a sistemas de ML. 
+
+**Quando Usar e Quando Evitar o ML:**
+
+> Características do Problema para Soluções de ML: Uma solução de ML requer dados disponíveis, padrões complexos a serem aprendidos, a capacidade de enquadrar o problema como uma questão de previsão e a presença de padrões similares entre os dados de treinamento e os dados não vistos.
+
+> Fatores que tornam o ML Especialmente Útil: Tarefas repetitivas, baixo custo associado a previsões erradas, escalabilidade das tarefas e a presença de padrões que estão em constante mudança.
+
