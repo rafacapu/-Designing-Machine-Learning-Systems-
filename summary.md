@@ -8,7 +8,11 @@ O capítulo oferece uma visão abrangente dos sistemas de aprendizado de máquin
 
 **Quando Usar e Quando Evitar o ML:**
 
-> Características do Problema para Soluções de ML: Uma solução de ML requer dados disponíveis, padrões complexos a serem aprendidos, a capacidade de enquadrar o problema como uma questão de previsão e a presença de padrões similares entre os dados de treinamento e os dados não vistos.
+ Características do Problema para Soluções de ML: Uma solução de ML requer dados disponíveis, padrões complexos a serem aprendidos, a capacidade de enquadrar o problema como uma questão de previsão e a presença de padrões similares entre os dados de treinamento e os dados não vistos.
 
-> Fatores que tornam o ML Especialmente Útil: Tarefas repetitivas, baixo custo associado a previsões erradas, escalabilidade das tarefas e a presença de padrões que estão em constante mudança.
+Fatores que tornam o ML Especialmente Útil: Tarefas repetitivas, baixo custo associado a previsões erradas, escalabilidade das tarefas e a presença de padrões que estão em constante mudança.
+
+**Casos de Uso Típicos de ML**
+
+ Aplicações para Consumidores vs. Empresariais: Enquanto os aplicativos voltados para consumidores priorizam a latência, a precisão é fundamental em aplicativos empresariais, onde o ML é utilizado para reduzir custos, prever a rotatividade de clientes, monitorar a marca, entre outros.
 
