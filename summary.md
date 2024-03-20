@@ -166,10 +166,12 @@ A escolha do formato de dados impacta na legibilidade, velocidade de recuperaç�
 
 Os modelos de dados incluem:
 
-- **Modelos de dados relacionais:** esquema definido antecipadamente.
-- **Modelos de dados NoSQL:** sem esquema definido antecipadamente.
+- **Modelos de dados relacionais**: o esquema é determinado antecipadamente.
+- **Modelos de dados NoSQL**:
+  - Nenhum esquema é determinado antecipadamente. A responsabilidade de assumir um esquema é transferida para as aplicações que leem os dados.
+    - Modelo de Documento
+    - Modelos de Grafo
 
-**Nota:** Não há tal coisa como um modelo de dados sem esquema.
 
 ### Motores de Banco de Dados
 
