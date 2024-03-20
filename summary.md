@@ -73,15 +73,15 @@ Além disso, o capítulo também aborda como o enquadramento do problema pode af
 
 ### Tipos de Tarefas Supervisionadas de ML
 
-1. **Classificação vs. Regressão:**
+#### Classificação vs. Regressão:**
    - Um modelo de regressão pode ser facilmente enquadrado como um modelo de classificação e vice-versa.
 
-2. **Problemas de Classificação Multiclasse:**
+#### **Problemas de Classificação Multiclasse:**
    - Problemas de alta cardinalidade são difíceis. Verifique se há outras alternativas antes de se comprometer com um modelo multiclasse.
    - A coleta de dados para problemas de alta cardinalidade é desafiadora.
    - A classificação hierárquica pode ser útil para problemas com muitas classes.
 
-3. **Problemas de Classificação Multirrótulo:**
+#### **Problemas de Classificação Multirrótulo:**
    - Os problemas de classificação multirrótulo são difíceis porque cada observação pode ter uma quantidade diferente de rótulos.
    - Existem duas abordagens principais para a classificação multirrótulo.
 
