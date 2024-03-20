@@ -1,6 +1,6 @@
 # Resumo  "Designing Machine Learning Systems" por Chip Huyen.
 
-## Capítulo 1
+##  1 overview of ml systems assets
 
 
 Este capítulo de abertura teve como objetivo proporcionar aos leitores uma compreensão do que é necessário para implementar com sucesso o aprendizado de máquina (ML) no mundo real. Começamos com uma exploração dos diversos casos de uso de ML atualmente em produção. 
@@ -94,5 +94,93 @@ Além disso, o capítulo também aborda como o enquadramento do problema pode af
 Em resumo, alinhar objetivos de negócios com objetivos de ML, entender os requisitos e enquadrar problemas de forma eficaz são etapas essenciais no desenvolvimento de sistemas de ML bem-sucedidos.
 
 
+
+## 3 - Fundamentos de Engenharia de Dados
+
+
+Este capítulo destaca a importância de escolher o formato adequado para armazenar dados em sistemas de ML, discutindo formatos de dados, modelos de dados e motores de armazenamento. Aborda também três modos de transferência de dados entre processos e explora a diferença entre processamento em lote e em fluxo. Esses conceitos são cruciais para o desenvolvimento eficaz de sistemas de ML, preparando o terreno para a coleta de dados e criação de conjuntos de treinamento.
+
+### Qualidade do algoritmo versus qualidade e quantidade dos dados
+
+- Há um grande debate sobre se, no futuro, a qualidade da ML será impulsionada pela qualidade e quantidade dos dados (como tem sido até agora) ou pela qualidade dos algoritmos de treinamento. Alguns acreditam que, com o aumento do poder computacional, algoritmos mais inteligentes e poderosos compensarão a qualidade e quantidade inferiores de dados.
+
+- O debate continua. No entanto, ninguém pode negar que, por enquanto, a qualidade e quantidade dos dados são essenciais. Por isso, as necessidades mais fundamentais para o aprendizado de máquina estão todas relacionadas aos dados, não ao treinamento do modelo.
+
+
+
+### Fontes de Dados
+
+Os dados para alimentar sistemas de ML geralmente vêm de diferentes fontes, categorizadas como:
+
+- **Dados de entrada do usuário:** variados em formato, como texto, imagens, vídeos e arquivos. Dados malformados são comuns.
+
+- **Dados gerados pelo sistema:** logs e saídas do sistema, como uso de memória, CPU e metadados sobre o comportamento do usuário.
+
+  - Menos propensos a serem malformados do que os dados do usuário.
+  - **É comum registrar tudo o que for possível devido à complexidade da depuração em sistemas de ML.**
+  - O grande volume de dados gerados pelo sistema apresenta desafios de sinal e armazenamento.
+
+- **Bancos de dados internos:** usados pelos serviços de software para executar os negócios.
+
+- **Dados de segunda parte:** coletados por outra empresa sobre seus clientes e disponibilizados para você.
+
+- **Dados de terceiros:** coletados por empresas sobre o público que não são seus clientes.
+
+### Formatos de Dados
+
+A escolha do formato de dados impacta na legibilidade, velocidade de recuperação, transmissão e custo de armazenamento. Alguns formatos populares incluem:
+
+  | Formato   | Binário/Texto  | Legível por humanos | Exemplos de uso             |
+  | --------- | -------------- | ------------------- | --------------------------- |
+  | JSON      | Texto          | Sim                 | Em todo lugar              |
+  | CSV       | Texto          | Sim                 | Em todo lugar              |
+  | Parquet   | Binário        | Não                 | Hadoop, Redshift           |
+  | Avro      | Binário        | Não                 | Hadoop                      |
+  | Protobuf  | Binário        | Não                 | Google, TensorFlow         |
+  | Pickle    | Binário        | Não                 | Python, PyTorch            |
+
+  *Tabela: Exemplos de formatos de dados populares*
+
+#### JSON
+
+- Extremamente popular, mas pode causar dificuldades devido à sua ubiquidade.
+- Boa legibilidade e flexibilidade.
+- Compromete-se implicitamente a um esquema que o leitor precisará assumir.
+- Mudar o esquema retroativamente é doloroso.
+
+#### Texto versus Binário
+
+- Texto é legível, mas ocupa mais espaço.
+- Binário é compacto, mas não é legível.
+
+#### Linha Principal versus Coluna Principal
+
+
+
+- **Linha Principal:** 
+  - Melhor para muitas gravações, mas difícil para muitas leituras.
+- **Coluna Principal:**
+  - Melhor para muitas leituras, mas difícil para muitas gravações.
+
+### Modelos de Dados
+
+Os modelos de dados incluem:
+
+- **Modelos de dados relacionais:** esquema definido antecipadamente.
+- **Modelos de dados NoSQL:** sem esquema definido antecipadamente.
+
+**Nota:** Não há tal coisa como um modelo de dados sem esquema.
+
+### Motores de Banco de Dados
+
+Os bancos de dados são otimizados para processamento transacional ou analítico.
+
+### Processamento de Dados
+
+Extração, transformação e carregamento (ETL) de dados de diferentes fontes para destino desejado.
+
+### Modos de Fluxo de Dados
+
+Como passar dados entre processos diferentes que não compartilham memória?
 
 
