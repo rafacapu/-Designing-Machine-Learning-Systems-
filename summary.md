@@ -10,7 +10,7 @@ O capítulo oferece uma visão abrangente dos sistemas de aprendizado de máquin
 
   - Características do Problema para Soluções de ML: Uma solução de ML requer dados disponíveis, padrões complexos a serem aprendidos, a capacidade de enquadrar o problema como uma questão de previsão e a presença de padrões similares entre os dados de treinamento e os dados não vistos.
 
-Fatores que tornam o ML Especialmente Útil: Tarefas repetitivas, baixo custo associado a previsões erradas, escalabilidade das tarefas e a presença de padrões que estão em constante mudança.
+ - Fatores que tornam o ML Especialmente Útil: Tarefas repetitivas, baixo custo associado a previsões erradas, escalabilidade das tarefas e a presença de padrões que estão em constante mudança.
 
 ### Casos de Uso Típicos de ML**
 
