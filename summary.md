@@ -1,4 +1,4 @@
-# Summary "Designing Machine Learning Systems by Chip Huyen.
+# Resumo  "Designing Machine Learning Systems" por Chip Huyen.
 
 ## Capítulo 1
 
