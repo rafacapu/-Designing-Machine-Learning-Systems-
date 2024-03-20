@@ -1,6 +1,6 @@
 # Resumo  "Designing Machine Learning Systems" por Chip Huyen.
 
-##  1 overview of ml systems assets
+##  1 - Overview of ml systems assets
 
 
 Este capítulo de abertura teve como objetivo proporcionar aos leitores uma compreensão do que é necessário para implementar com sucesso o aprendizado de máquina (ML) no mundo real. Começamos com uma exploração dos diversos casos de uso de ML atualmente em produção. 
@@ -31,7 +31,7 @@ O capítulo oferece uma visão abrangente dos sistemas de aprendizado de máquin
 - Compreender as características e desafios únicos dos sistemas de ML é fundamental para o sucesso na implantação e manutenção de soluções de ML em cenários do mundo real.
 
 
-# 2 - Objetivos do Projeto, Requisitos e Enquadramento
+# 2 - Project objectives, requirements and framing
 Este capítulo mostra que é  essencial entender os requisitos que o sistema precisa atender para ser considerado bem-sucedido. Esses requisitos variam dependendo do caso de uso, mas neste capítulo, o autor foca em quatro requisitos gerais: confiabilidade, escalabilidade, manutenabilidade e adaptabilidade. 
 
 Após determinar que uma solução de ML é viável para o seu problema , é possível alinhar os objetivos de negócios com os objetivos de ML e definir os requisitos operacionais que o sistema precisa satisfazer.
@@ -49,7 +49,7 @@ Além disso, o capítulo também aborda como o enquadramento do problema pode af
 
 ### Confiabilidade
 
-- O sistema deve continuar a desempenhar a função correta no nível desejado mesmo diante de adversidades.
+- O sistema deve continuar a desempenhar a função correta no nível desejado mesmo diante de adversidades e problemas.
 - Determinar a "correção" em sistemas de ML é mais difícil do que em sistemas de software, pois os sistemas de ML podem falhar silenciosamente, continuando a produzir previsões incorretas.
 
 ### Escalabilidade
@@ -95,7 +95,7 @@ Em resumo, alinhar objetivos de negócios com objetivos de ML, entender os requi
 
 
 
-## 3 - Fundamentos de Engenharia de Dados
+## 3 - Data Engineering Fundamentals
 
 
 Este capítulo destaca a importância de escolher o formato adequado para armazenar dados em sistemas de ML, discutindo formatos de dados, modelos de dados e motores de armazenamento. Aborda também três modos de transferência de dados entre processos e explora a diferença entre processamento em lote e em fluxo. Esses conceitos são cruciais para o desenvolvimento eficaz de sistemas de ML, preparando o terreno para a coleta de dados e criação de conjuntos de treinamento.
@@ -148,6 +148,9 @@ A escolha do formato de dados impacta na legibilidade, velocidade de recuperaç�
 
 #### JSON
 
+
+-Está em toda parte. Mesmo sendo  derivado de JavaScript, é independente de linguagem – a maioria
+ linguagens de programação podem gerar e analisar JSON
 - Extremamente popular, mas pode causar dificuldades devido à sua ubiquidade.
 - Boa legibilidade e flexibilidade.
 - Compromete-se implicitamente a um esquema que o leitor precisará assumir.
@@ -159,6 +162,7 @@ A escolha do formato de dados impacta na legibilidade, velocidade de recuperaç�
 - Binário é compacto, mas não é legível.
 
 #### Linha Principal versus Coluna Principal
+CSV e Parquet são dois formatos comuns de armazenamento de dados que representam paradigmas distintos. CSV (Comma-Separated Values) é baseado na linha principal, o que significa que os elementos em uma linha são armazenados próximos uns dos outros na memória. Por outro lado, o Parquet é baseado na coluna principal, onde os elementos em colunas são armazenados contiguamente.
 
 - **Linha Principal:** 
   - Melhor para muitas gravações, mas difícil para muitas leituras.
@@ -166,6 +170,7 @@ A escolha do formato de dados impacta na legibilidade, velocidade de recuperaç�
   - Melhor para muitas leituras, mas difícil para muitas gravações.
 
 ### Modelos de Dados
+Os modelos de dados explicam a representação dos dados. Imagine carros no mundo real. Em um banco de dados, um carro pode ser caracterizado pelo fabricante, modelo, ano, cor e preço.
 
 Os modelos de dados incluem:
 
@@ -178,6 +183,9 @@ Os modelos de dados incluem:
 
 ### Motores de Banco de Dados
 
+
+Os formatos e modelos de dados definem a interface para armazenar e recuperar dados, enquanto os motores de armazenamento, também chamados de bancos de dados, são responsáveis pela implementação dessas operações em máquinas. É importante compreender os diferentes tipos de bancos de dados, pois sua equipe ou equipes adjacentes podem precisar selecionar um banco de dados adequado para sua aplicação.
+
 Os bancos de dados são otimizados para processamento transacional ou analítico.
 
 ### Processamento de Dados
@@ -186,6 +194,8 @@ Extração, transformação e carregamento (ETL) de dados de diferentes fontes p
 
 ### Modos de Fluxo de Dados
 
-Como passar dados entre processos diferentes que não compartilham memória?
+Quando os dados são transferidos de um processo para outro, dizemos que os dados fluem de um processo para outro, o que nos dá um fluxo de dados. Existem três modos principais de fluxo de dados:
+
+
 
 
