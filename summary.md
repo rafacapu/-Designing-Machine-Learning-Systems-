@@ -112,7 +112,9 @@ Este capítulo destaca a importância de escolher o formato adequado para armaze
 
 Os dados para alimentar sistemas de ML geralmente vêm de diferentes fontes, categorizadas como:
 
- #### Dados de entrada do usuário:** variados em formato, como texto, imagens, vídeos e arquivos. Dados malformados são comuns.
+ #### Dados de entrada do usuário:** 
+ 
+ - variados em formato, como texto, imagens, vídeos e arquivos. Dados malformados são comuns.
 
  #### Dados gerados pelo sistema:** logs e saídas do sistema, como uso de memória, CPU e metadados sobre o comportamento do usuário.
 
@@ -120,11 +122,14 @@ Os dados para alimentar sistemas de ML geralmente vêm de diferentes fontes, cat
   - É comum registrar tudo o que for possível devido à complexidade da depuração em sistemas de ML.
   - O grande volume de dados gerados pelo sistema apresenta desafios de sinal e armazenamento.
 
- #### Bancos de dados internos: usados pelos serviços de software para executar os negócios.
+ #### Bancos de dados internos: 
+ - usados pelos serviços de software para executar os negócios.
 
-#### Dados de segunda parte: coletados por outra empresa sobre seus clientes e disponibilizados para você.
+#### Dados de segunda parte: 
+- coletados por outra empresa sobre seus clientes e disponibilizados para você.
 
-#### Dados de terceiros: coletados por empresas sobre o público que não são seus clientes.
+#### Dados de terceiros: 
+- coletados por empresas sobre o público que não são seus clientes.
 
 ### Formatos de Dados
 
