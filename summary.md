@@ -117,7 +117,7 @@ Os dados para alimentar sistemas de ML geralmente vêm de diferentes fontes, cat
 - **Dados gerados pelo sistema:** logs e saídas do sistema, como uso de memória, CPU e metadados sobre o comportamento do usuário.
 
   - Menos propensos a serem malformados do que os dados do usuário.
-  - **É comum registrar tudo o que for possível devido à complexidade da depuração em sistemas de ML.**
+  - É comum registrar tudo o que for possível devido à complexidade da depuração em sistemas de ML.
   - O grande volume de dados gerados pelo sistema apresenta desafios de sinal e armazenamento.
 
 - **Bancos de dados internos:** usados pelos serviços de software para executar os negócios.
