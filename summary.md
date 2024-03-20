@@ -6,22 +6,22 @@
 Este capítulo de abertura teve como objetivo proporcionar aos leitores uma compreensão do que é necessário para implementar com sucesso o aprendizado de máquina (ML) no mundo real. Começamos com uma exploração dos diversos casos de uso de ML atualmente em produção. 
 O capítulo oferece uma visão abrangente dos sistemas de aprendizado de máquina (ML), destacando os elementos-chave que determinam a viabilidade de uma solução de ML para um problema específico, além de enfatizar os fatores que podem tornar o ML uma abordagem especialmente eficaz. Além disso, ele diferencia a aplicação de ML em pesquisas e em produção, enquanto também destaca os desafios inerentes à aplicação de práticas tradicionais de engenharia de software a sistemas de ML. 
 
-### Quando Usar e Quando Evitar o ML:**
+### **Quando Usar e Quando Evitar o ML:**
 
   - Características do Problema para Soluções de ML: Uma solução de ML requer dados disponíveis, padrões complexos a serem aprendidos, a capacidade de enquadrar o problema como uma questão de previsão e a presença de padrões similares entre os dados de treinamento e os dados não vistos.
 
  - Fatores que tornam o ML Especialmente Útil: Tarefas repetitivas, baixo custo associado a previsões erradas, escalabilidade das tarefas e a presença de padrões que estão em constante mudança.
 
-### Casos de Uso Típicos de ML**
+### **Casos de Uso Típicos de ML:**
 
   - Aplicações para Consumidores vs. Empresariais: Enquanto os aplicativos voltados para consumidores priorizam a latência, a precisão é fundamental em aplicativos empresariais, onde o ML é utilizado para reduzir custos, prever a rotatividade de clientes, monitorar a marca, entre outros.
 
-### ML na Pesquisa e na Produção**
+### **ML na Pesquisa e na Produção:**
 
 - Diferenças nos Requisitos, Prioridades Computacionais, Dinâmica dos Dados, Equidade e Interoperabilidade entre sistemas de ML utilizados em pesquisas e em ambientes de produção.
 
 
-### Desafios em Sistemas de ML em Comparação com Software Tradicional:**
+### **Desafios em Sistemas de ML em Comparação com Software Tradicional:**
 
 - Os sistemas de ML envolvem o gerenciamento não apenas do código, mas também dos dados e dos artefatos do modelo, tornando essencial a aplicação de estratégias de versionamento, teste, implantação e monitoramento específicas.
 
@@ -40,7 +40,7 @@ Além disso, o capítulo também aborda como o enquadramento do problema pode af
 
 ## A Relação entre Objetivos de Negócios e de ML
 
-1. **Objetivos de Negócios e Métricas de ML:** 
+ **Objetivos de Negócios e Métricas de ML:** 
    - Empresas não se importam com métricas de ML sofisticadas como `acurácia`, `precisão`, `revocação`, `F1`, etc. Projetos de ML nos quais os cientistas de dados se concentram demais em hackear métricas de ML sem prestar atenção às métricas de negócios tendem a falhar.
    - Mapear métricas de negócios para métricas de ML é mais fácil para algumas aplicações de ML do que para outras. Por exemplo, o impacto de sistemas de detecção de fraudes em aplicações financeiras é muito claro e fácil de medir.
    - Muitas empresas criam suas próprias métricas para mapear métricas de negócios para métricas de ML, como a Netflix, que mede o desempenho de seu sistema de recomendação usando a taxa de sucesso: o número de reproduções de qualidade dividido pelo número de recomendações que um usuário vê.
