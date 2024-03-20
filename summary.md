@@ -114,7 +114,8 @@ Os dados para alimentar sistemas de ML geralmente vêm de diferentes fontes, cat
 
  #### Dados de entrada do usuário:** 
  
- - variados em formato, como texto, imagens, vídeos e arquivos. Dados malformados são comuns.
+ - Variados em formato, como texto, imagens, vídeos e arquivos.
+ - Dados malformados e corrompidos são comuns.
 
  #### Dados gerados pelo sistema:** logs e saídas do sistema, como uso de memória, CPU e metadados sobre o comportamento do usuário.
 
@@ -123,13 +124,13 @@ Os dados para alimentar sistemas de ML geralmente vêm de diferentes fontes, cat
   - O grande volume de dados gerados pelo sistema apresenta desafios de sinal e armazenamento.
 
  #### Bancos de dados internos: 
- - usados pelos serviços de software para executar os negócios.
+ - Usados pelos serviços de software para executar os negócios.
 
 #### Dados de segunda parte: 
-- coletados por outra empresa sobre seus clientes e disponibilizados para você.
+- Coletados por outra empresa sobre seus clientes e disponibilizados para você.
 
 #### Dados de terceiros: 
-- coletados por empresas sobre o público que não são seus clientes.
+- Coletados por empresas sobre o público que não são seus clientes.
 
 ### Formatos de Dados
 
@@ -154,7 +155,7 @@ A escolha do formato de dados impacta na legibilidade, velocidade de recuperaç�
 - Extremamente popular, mas pode causar dificuldades devido à sua ubiquidade.
 - Boa legibilidade e flexibilidade.
 - Compromete-se implicitamente a um esquema que o leitor precisará assumir.
-- Mudar o esquema retroativamente é doloroso.
+- Mudar o esquema retroativamente é difícil.
 
 #### Texto versus Binário
 
@@ -184,17 +185,18 @@ Os modelos de dados incluem:
 ### Motores de Banco de Dados
 
 
-Os formatos e modelos de dados definem a interface para armazenar e recuperar dados, enquanto os motores de armazenamento, também chamados de bancos de dados, são responsáveis pela implementação dessas operações em máquinas. É importante compreender os diferentes tipos de bancos de dados, pois sua equipe ou equipes adjacentes podem precisar selecionar um banco de dados adequado para sua aplicação.
+- Os formatos e modelos de dados definem a interface para armazenar e recuperar dados, enquanto os motores de armazenamento, também chamados de bancos de dados, são responsáveis pela implementação dessas operações em máquinas. É importante compreender os diferentes tipos de bancos de dados, pois sua equipe ou equipes adjacentes podem precisar selecionar um banco de dados adequado para sua aplicação.
 
-Os bancos de dados são otimizados para processamento transacional ou analítico.
+- Os bancos de dados são otimizados para processamento transacional ou analítico.
 
 ### Processamento de Dados
 
-Extração, transformação e carregamento (ETL) de dados de diferentes fontes para destino desejado.
+ - Extração, transformação e carregamento (ETL) de dados de diferentes fontes para destino desejado.
 
 ### Modos de Fluxo de Dados
 
-Quando os dados são transferidos de um processo para outro, dizemos que os dados fluem de um processo para outro, o que nos dá um fluxo de dados. Existem três modos principais de fluxo de dados:
+ -Quando os dados são transferidos de um processo para outro, dizemos que os dados fluem de um processo para outro, o que nos dá um fluxo de dados. Existem três modos principais de fluxo de dados:
+ Passagem de Dados Através de Serviços,Transferência de Dados em Tempo Real e Transferência de Dados Através de Bancos de Dados
 
 
 
