@@ -73,7 +73,7 @@ Além disso, o capítulo também aborda como o enquadramento do problema pode af
 
 ### Tipos de Tarefas Supervisionadas de ML
 
-#### Classificação vs. Regressão:**
+#### Classificação vs. Regressão:
    - Um modelo de regressão pode ser facilmente enquadrado como um modelo de classificação e vice-versa.
 
 #### **Problemas de Classificação Multiclasse:**
